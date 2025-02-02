@@ -21,7 +21,7 @@ export default function QnA() {
   const questions = [
     {
       id: 1,
-      question: "What is Nerko's NFT Collection?",
+      question: "What is KIBOKO DAO NFT Collection?",
       answer:
         "Voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.",
     },
@@ -33,7 +33,7 @@ export default function QnA() {
     },
     {
       id: 3,
-      question: "Why should we choose Nerko's NFT?",
+      question: "Why should we choose KIBOKO NFT?",
       answer:
         "Voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.",
     },
@@ -77,24 +77,7 @@ export default function QnA() {
             ))}
           </div>
 
-          <div className="col-md-6 card">
-            {questions.map((q, index) => (
-              <div className="question" key={q.id}>
-                <h5 onClick={() => toggleAnswerRight(q.id)} data-active={activeQuestionRight === q.id}>
-                  {q.question}
-                  {activeQuestionRight === q.id ? (
-                    <i className="bi bi-dash-lg"></i>
-                  ) : (
-                    <i className="bi bi-plus-lg"></i>
-                  )}
-                </h5>
-                {activeQuestionRight === q.id && (
-                  <p>{q.answer}</p>
-                )}
-                {index !== questions.length - 1 && <hr />}
-              </div>
-            ))}
-          </div>
+
         </div>
       </div>
     </section>

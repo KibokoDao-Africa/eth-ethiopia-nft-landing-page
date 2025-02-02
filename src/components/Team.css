@@ -84,10 +84,10 @@
 }
 
 .team-member-details h3 {
-  font-size: 60px;
-  font-weight: 700;
-  color: #111111;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+font-size: 50px;
+    font-weight: 700;
+    color: #eb00f0;
+    text-shadow: -3px -2px 0px rgb(0 0 0);
   line-height: 1;
   margin: 0;
   text-align: center;

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-scroll';
-import logo from '../images/logo.svg';
+import logo from '../images/hero_dao_hippo.png';
 import './Navbar.css';
 
 function Navbar() {

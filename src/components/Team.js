@@ -6,37 +6,13 @@ import "./Team.css";
 const teamMembers = [
   [
     {
-      name: "Steph Jobs",
-      jobTitle: "Artist",
-      image: require("../images/04.jpg"),
-    },
-    {
-      name: "Andry Morays",
-      jobTitle: "Artist",
-      image: require("../images/08.jpg"),
-    },
-  ],
-  [
-    {
-      name: "Steve Allan",
-      jobTitle: "Artist",
-      image: require("../images/09.jpg"),
-    },
-    {
-      name: "John Clark",
-      jobTitle: "Artist",
-      image: require("../images/03.jpg"),
-    },
-  ],
-  [
-    {
-      name: "Alfonso Pedro",
-      jobTitle: "Artist",
+      name: "Edwin Riungu",
+      jobTitle: "Frontend",
       image: require("../images/01.jpg"),
     },
     {
-      name: "Jasse Davy",
-      jobTitle: "Artist",
+      name: "Timoty Agev",
+      jobTitle: "Smart Contract",
       image: require("../images/10.jpg"),
     },
   ],
@@ -52,9 +28,7 @@ export default function Team() {
           MEET <span>OUR TEAM</span>
         </h1>
         <div className="row">
-          <div className="team-descreption col-2">
-            <p>Introducing Our Talented Crew</p>
-          </div>
+
           <div className="carousel-container col-10">
             <Carousel
               ref={carouselRef}

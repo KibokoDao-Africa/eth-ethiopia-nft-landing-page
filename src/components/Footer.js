@@ -37,6 +37,8 @@ const footerLinks = [
   { href: "/", text: "Sign Up" },
 ];
 
+const year = new Date().getFullYear();
+
 export default function Footer() {
   return (
     <section className="Footer">
@@ -48,9 +50,15 @@ export default function Footer() {
               <br />
               <span>DISCORD</span>
             </h1>
-            <p className="subtitle">Invest and manage all your NFTs at one place.</p>
+            <p className="subtitle">
+              Invest and manage all your NFTs at one place.
+            </p>
             <div className="cta">
-              <a href="https://discord.gg/3Qq9VJ6Z" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://discord.gg/3Qq9VJ6Z"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Join Discord
               </a>
             </div>
@@ -58,7 +66,11 @@ export default function Footer() {
 
           <ul className="social-links">
             {socialLinks.map((link, index) => (
-              <SocialLink key={index} href={link.href} iconClass={link.iconClass} />
+              <SocialLink
+                key={index}
+                href={link.href}
+                iconClass={link.iconClass}
+              />
             ))}
           </ul>
 
@@ -68,8 +80,18 @@ export default function Footer() {
             ))}
           </ul>
 
-          <p className="copy">© 2023 Nerko. All rights reserved.</p>
-          <p className="credit">Coded with 💜 by <a href="https://github.com/s-shemmee" target="_blank" rel="noopener noreferrer">@s-shemmee</a></p>
+          <p className="copy">© {year} KIBOKO DAO All rights reserved.</p>
+          <p className="credit">
+            Design by  
+            <a
+              href="https://github.com/eddiemetrium"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{paddingLeft:"2px"}}
+            >
+              eddiemetrium
+            </a>
+          </p>
         </div>
       </div>
     </section>

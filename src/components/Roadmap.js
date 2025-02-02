@@ -16,7 +16,7 @@ export default function Roadmap() {
   return (
     <section className="roadmap">
       <div className="container-fluid">
-        <h1 className="roadmap-title">NERKO'S <span>ROADMAP</span></h1>
+        <h1 className="roadmap-title">KIBOKO DAO <span>ROADMAP</span></h1>
         <div className="row">
           <div className="col-md-4">
             <div className="text-column">
