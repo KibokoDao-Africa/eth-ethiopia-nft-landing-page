@@ -23,31 +23,25 @@ export default function QnA() {
       id: 1,
       question: "What is KIBOKO DAO NFT Collection?",
       answer:
-        "Voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.",
+        "Group of non-fungible token that allow community secure membership with the DAO.",
     },
     {
       id: 2,
-      question: "How can we buy and invest in NFTs?",
+      question: "Why should we choose KIBOKO NFT?",
       answer:
-        "Voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.",
+        "Grant membership that unlocks; voting, proporsing, mentorship, access to funding & grants.",
     },
     {
       id: 3,
-      question: "Why should we choose KIBOKO NFT?",
+      question: "How secure is this token?",
       answer:
-        "Voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.",
+        "Our tokens have been tested by the best smart contract auditors, and are open-source any errors, bugs or vulnerability can easily be identified.",
     },
     {
       id: 4,
-      question: "How secure is this token?",
+      question: "How can one start buying NFTs?",
       answer:
-        "Voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.",
-    },
-    {
-      id: 5,
-      question: "What is your contract address?",
-      answer:
-        "Voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.",
+        "To start buying NFTs, you need to set up a digital wallet, purchase cryptocurrency (such as Ethereum), and then use a marketplace platform to buy the NFTs. Follow the instructions on the platform to complete your purchase.",
     }
   ];
 
