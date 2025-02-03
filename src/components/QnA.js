@@ -4,7 +4,6 @@ import "./QnA.css";
 export default function QnA() {
   // Separate states for each card's active question
   const [activeQuestionLeft, setActiveQuestionLeft] = useState(null);
-  const [activeQuestionRight, setActiveQuestionRight] = useState(null);
 
   const toggleAnswerLeft = (questionId) => {
     setActiveQuestionLeft((prevQuestionId) =>
@@ -12,11 +11,7 @@ export default function QnA() {
     );
   };
 
-  const toggleAnswerRight = (questionId) => {
-    setActiveQuestionRight((prevQuestionId) =>
-      prevQuestionId === questionId ? null : questionId
-    );
-  };
+
 
   const questions = [
     {
