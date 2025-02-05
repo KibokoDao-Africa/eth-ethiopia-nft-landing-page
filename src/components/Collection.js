@@ -4,53 +4,29 @@ import "./Collection.css";
 export default function Collection() {
   const collections = [
     {
-      name: "#Polly Doll",
-      username: "@By TheSalvare",
-      profileImg: require("../images/04.jpg"),
-      image1: require("../images/04.jpg"),
-      image2: require("../images/08.jpg"),
-      image3: require("../images/18.jpg"),
+      name: "By KIBOKO",
+      username: "@kiboko",
+      profileImg: require("../images/zimbabwe.png"),
+      image1: require("../images/zambia.png"),
+      image2: require("../images/south africa.png"),
+      image3: require("../images/kenya.png"),
     },
     {
-      name: "#Metaverse",
-      username: "@By TheSalvare",
-      profileImg: require("../images/19.jpg"),
-      image1: require("../images/03.jpg"),
-      image2: require("../images/01.jpg"),
-      image3: require("../images/19.jpg"),
+      name: "By KIBOKO",
+      username: "@kiboko",
+      profileImg: require("../images/Ghana.png"),
+      image1: require("../images/Sierra.png"),
+      image2: require("../images/Rwanda.png"),
+      image3: require("../images/Nigeria.png"),
     },
     {
-      name: "#Alec Art",
-      username: "@Georgijevic",
-      profileImg: require("../images/05.jpg"),
-      image1: require("../images/05.jpg"),
-      image2: require("../images/11.jpg"),
-      image3: require("../images/09.jpg"),
+      name: "By KIBOKO",
+      username: "@kiboko",
+      profileImg: require("../images/Ghana.png"),
+      image1: require("../images/Sierra.png"),
+      image2: require("../images/Rwanda.png"),
+      image3: require("../images/Nigeria.png"),
     },
-    {
-      name: "#Toxic Poeth",
-      username: "@By Yayoi",
-      profileImg: require("../images/03.jpg"),
-      image1: require("../images/13.jpg"),
-      image2: require("../images/12.jpg"),
-      image3: require("../images/15.jpg"),
-    },
-    {
-      name: "#Saphyre",
-      username: "@By CryptoX",
-      profileImg: require("../images/01.jpg"),
-      image1: require("../images/16.jpg"),
-      image2: require("../images/17.jpg"),
-      image3: require("../images/14.jpg"),
-    },
-    {
-      name: "By CryptoX",
-      username: "@By Texira",
-      profileImg: require("../images/10.jpg"),
-      image1: require("../images/10.jpg"),
-      image2: require("../images/02.jpg"),
-      image3: require("../images/06.jpg"),
-    }
   ];
 
   return (
@@ -59,7 +35,7 @@ export default function Collection() {
         <div className="row">
           <h1>
             COLLECTION<br></br>
-            <span>BY ARTIST</span>
+            <span>BY kiboko</span>
           </h1>
         </div>
         <div className="row">
@@ -75,7 +51,7 @@ export default function Collection() {
                 </div>
                 <div className="collection-card-images">
                   <div className="collection-card-left-image">
-                   <img src={collection.image1} alt="Image1" />
+                    <img src={collection.image1} alt="Image1" />
                   </div>
                   <div className="collection-card-right-images">
                     <img src={collection.image2} alt="Image2" />
@@ -85,6 +61,15 @@ export default function Collection() {
               </div>
             </div>
           ))}
+        </div>
+        <div className="cta">
+          <a
+            href="https://rarible.com/kiboko"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Buy Now
+          </a>
         </div>
       </div>
     </section>

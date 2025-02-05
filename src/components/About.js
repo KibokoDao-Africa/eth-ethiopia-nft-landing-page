@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import collectionImage from '../images/collection.png';
+import collectionImage from '../images/kenya.png';
 
 export default function About() {
   return (

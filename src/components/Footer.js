@@ -82,12 +82,12 @@ export default function Footer() {
 
           <p className="copy">© {year} KIBOKO DAO All rights reserved.</p>
           <p className="credit">
-            Design by  
+            Design by
             <a
               href="https://github.com/eddiemetrium"
               target="_blank"
               rel="noopener noreferrer"
-              style={{paddingLeft:"2px"}}
+              style={{ paddingLeft: "2px" }}
             >
               eddiemetrium
             </a>

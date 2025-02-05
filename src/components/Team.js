@@ -11,7 +11,7 @@ const teamMembers = [
       image: require("../images/01.jpg"),
     },
     {
-      name: "Timoty Agev",
+      name: "Timothy Agev",
       jobTitle: "Smart Contract",
       image: require("../images/10.jpg"),
     },
