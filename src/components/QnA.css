@@ -8,7 +8,7 @@
 .QnA h2 {
   font-family: 'Poppins', sans-serif;
   color: #000;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 700;
   line-height: 1;
   letter-spacing: normal;
@@ -49,7 +49,7 @@
 
 .QnA .question h5 {
   color: #000;
-  font-size: 22px;
+  font-size: 25px;
   font-weight: 700;
   line-height: 1;
   letter-spacing: normal;
@@ -65,7 +65,7 @@
 .QnA .question h5 i {
   right: 0;
   position: absolute;
-  font-size: 16px;
+  font-size: 18px;
   color: #666;
 }
 
