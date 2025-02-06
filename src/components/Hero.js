@@ -52,7 +52,7 @@ export default function Hero() {
           </svg>
         </div>
         <div className="content">
-          <h1 style={{ color: "whitesmoke" }}>
+          <h1 >
             collect & sell
             <br />
             <span>kiboko rare nfts</span>
@@ -87,7 +87,7 @@ export default function Hero() {
                   alt="03"
                 />
               </div>
-              <div className="col">
+              <div style={{display:"none"}} className="col">
                 <img
                   className="img main-image"
                   src={require("../images/kenya.png")}

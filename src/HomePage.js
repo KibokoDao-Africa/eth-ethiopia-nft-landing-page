@@ -16,18 +16,6 @@ function HomePage() {
       <Navbar />
       <Hero id="hero" />
       <Break />
-      <Why id="why" />
-      <Break />
-      <About id="about" />
-      <Break />
-      <Roadmap id="roadmap" />
-      <Break />
-      <Team id="team" />
-      <Break />
-      <Collection id="collection" />
-      <Break />
-      <QnA id="qna" />
-      <Break />
       <Footer />
     </div>
   );
