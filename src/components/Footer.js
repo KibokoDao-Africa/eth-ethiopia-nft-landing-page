@@ -21,11 +21,20 @@ const FooterLink = ({ href, text }) => (
 
 // Array of social links
 const socialLinks = [
-  { href: "https://twitter.com", iconClass: "bi bi-twitter" },
-  { href: "https://discord.com", iconClass: "bi bi-discord" },
+  {
+    href: " https://x.com/KibokoDAO?t=qcfl5HVEXoSUQVkBQM3KLQ&s=09",
+    iconClass: "bi bi-twitter",
+  },
+  { href: "https://discord.gg/cg48CzbsXq", iconClass: "bi bi-discord" },
   { href: "https://www.instagram.com/definfts/", iconClass: "bi bi-instagram" },
-  { href: "https://facebook.com", iconClass: "bi bi-facebook" },
-  { href: "https://youtube.com", iconClass: "bi bi-youtube" },
+  {
+    href: " https://www.instagram.com/kiboko_dao?igsh=MTQxY3dqdXQzM2t1dg==",
+    iconClass: "bi bi-facebook",
+  },
+  {
+    href: "https://www.youtube.com/@KibokoDAOAfrica",
+    iconClass: "bi bi-youtube",
+  },
 ];
 
 // Array of footer links

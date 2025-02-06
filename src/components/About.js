@@ -11,15 +11,19 @@ export default function About() {
             <img src={collectionImage} className="img-fluid" alt="Collection" />
           </div>
           <div className="col-md-6 panel-content">
-            <h3 className="about-title">ABOUT<br />
+            <h3 className="about-title">
+              ABOUT
+              <br />
               <span>COLLECTION</span>
             </h3>
-            <p className="about-content">Content creation optimized for social media engagement and tangible results.</p>
-            <p className="about-content">Social media marketing through turnkey influencer marketing campaigns and social media account management to grow your digital art and drive your collection.</p>
+            <p className="about-content">
+              Exclusive NFT Collections consist of 12 per collection, Each
+              collection representing an African Country.
+            </p>
             <div className="row justify-content-around">
               <Card title="Sync & track" value="93%" />
               <Card title="Up value" value="2.5X" />
-              <Card title="Of members" value="50K+" />
+              <Card title="Of members" value="5K+" />
             </div>
           </div>
 
