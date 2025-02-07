@@ -40,23 +40,10 @@ export default function Footer() {
       <div className="container">
         <div className="row">
           <div className="join-us">
-            <h1>
-              JOIN US VIA
-              <br />
-              <span>DISCORD</span>
-            </h1>
             <p className="subtitle">
               Invest in our NFTs, get voting, proposing and access rights all in one place.
             </p>
-            <div className="cta">
-              <a
-                href="https://discord.gg/3Qq9VJ6Z"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Join Discord
-              </a>
-            </div>
+
           </div>
 
           <ul className="social-links">

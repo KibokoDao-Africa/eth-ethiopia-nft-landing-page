@@ -6,8 +6,8 @@ html, body {
   margin: 0;
   font-family: 'Space Grotesk', sans-serif;
   background: linear-gradient(to top, #fff 50%, #e9d2fc);
-  background-image: url(./images/hero-background.jpg);
-  background-position: inherit;
+  background-image: url(./images/IMG-20241214-WA0002\ \(1\).jpg);
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed; /* This keeps the background image fixed */
@@ -37,9 +37,10 @@ body::-webkit-scrollbar-thumb:hover {
 /* Background for mobile screens */
 @media (max-width: 768px) {
   body {
-    background-image: url('./images/hero-background-mobile.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: scroll; /* Optional: Change attachment for better performance on mobile */
+    background-image: url('./images/IMG-20241214-WA0002.jpg');
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; /* Optional: Change attachment for better performance on mobile */
   }
 }
