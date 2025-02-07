@@ -32,3 +32,23 @@ body::-webkit-scrollbar-thumb {
 body::-webkit-scrollbar-thumb:hover {
   background-color: #555;
 }
+.carousel-container {
+  padding: 20px;
+  background-color: transparent;
+}
+
+.image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.carousel-image {
+  transition: transform 0.3s ease;
+}
+
+.carousel-image:hover {
+  transform: scale(1.05);
+}
+

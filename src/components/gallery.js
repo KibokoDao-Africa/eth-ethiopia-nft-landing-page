@@ -2,6 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import "../index.css";
 
 // Importing images
 import kenya from "../images/kenya.png";
@@ -11,39 +12,44 @@ import angola from "../images/angola.png";
 import ethiopia from "../images/Ethiopia.png";
 
 export default function FullScreenCarousel() {
-   const settings = {
-     dots: false, // Removes the navigation dots
-     arrows: false, // Removes the next/previous arrows
-     infinite: true, // Infinite scrolling
-     speed: 2000, // Animation speed
-     autoplay: true, // Enable autoplay
-     autoplaySpeed: 0, // For continuous movement
-     cssEase: "linear", // Smooth continuous motion
-     slidesToShow: 5, // Number of images visible (default)
-     slidesToScroll: 1, // Images to scroll at a time
-     pauseOnHover: false, // Disable pause on hover
-     responsive: [
-       {
-         breakpoint: 1024, // For screens below 1024px
-         settings: {
-           slidesToShow: 4, // Show 4 slides
-         },
-       },
-       {
-         breakpoint: 768, // For screens below 768px
-         settings: {
-           slidesToShow: 3, // Show 3 slides
-         },
-       },
-       {
-         breakpoint: 480, // For screens below 480px
-         settings: {
-           slidesToShow: 2, // Show 2 slides
-         },
-       },
-     ],
-   };
-
+  const settings = {
+    dots: false,
+    arrows: false,
+    infinite: true,
+    speed: 2000,
+    autoplay: true,
+    autoplaySpeed: 0,
+    cssEase: "linear",
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    pauseOnHover: false,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 4,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 360,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
+  };
 
   const images = [
     { src: kenya, alt: "Kenya" },
@@ -54,13 +60,10 @@ export default function FullScreenCarousel() {
   ];
 
   return (
-    <div className="container-fluid bg-none py-3 mt-4">
+    <div className="carousel-container" style={{ overflow: "hidden" }}>
       <Slider {...settings}>
         {images.map((image, index) => (
-          <div
-            key={index}
-            className="d-flex justify-content-center align-items-center mx-auto"
-          >
+          <div key={index} className="image-wrapper">
             <a
               href="https://rarible.com/kiboko"
               target="_blank"
@@ -69,10 +72,12 @@ export default function FullScreenCarousel() {
               <img
                 src={image.src}
                 alt={image.alt}
-                className="m-4 px-2"
+                className="carousel-image"
                 style={{
-                  width: "12rem",
-                  height: "12rem",
+                  width: "100%",
+                  height: "auto",
+                  maxWidth: "200px",
+                  maxHeight: "200px",
                   objectFit: "contain",
                 }}
               />
