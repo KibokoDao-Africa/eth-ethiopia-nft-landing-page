@@ -37,14 +37,7 @@ const socialLinks = [
   },
 ];
 
-// Array of footer links
-const footerLinks = [
-  { href: "/", text: "Blog" },
-  { href: "/", text: "Privacy" },
-  { href: "/", text: "Terms of use" },
-  { href: "/", text: "Sign In" },
-  { href: "/", text: "Sign Up" },
-];
+
 
 const year = new Date().getFullYear();
 
@@ -83,11 +76,7 @@ export default function Footer() {
             ))}
           </ul>
 
-          <ul className="footer-links">
-            {footerLinks.map((link, index) => (
-              <FooterLink key={index} href={link.href} text={link.text} />
-            ))}
-          </ul>
+         
 
           <p className="copy">© {year} KIBOKO DAO All rights reserved.</p>
           <p className="credit">
