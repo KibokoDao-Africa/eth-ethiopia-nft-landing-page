@@ -23,6 +23,11 @@
   text-transform: uppercase;
   margin-bottom: 40px;
   text-align: center;
+  text-shadow: 
+    2px 2px 0 black, 
+   -2px 2px 0 black, 
+    2px -2px 0 black, 
+   -2px -2px 0 black; /* Adds a black outline to the text */
 }
 
 .Footer h1 span {
@@ -63,7 +68,7 @@
   transition: 0.3s ease-in-out;
 }
 
-.Footer .cta a:hover{
+.Footer .cta a:hover {
   background: linear-gradient(50deg, #5101e3, #8300e7, #a900eb, #cc00ee, #eb00f0);
 }
 
@@ -89,6 +94,7 @@
 .Footer .social-links a {
   font-size: 20px;
 }
+
 .Footer .footer-links a {
   font-size: 22px;
 }
@@ -108,6 +114,7 @@
   text-transform: none;
   text-align: center;
 }
+
 .Footer .credit {
   font-family: 'Poppins', sans-serif;
   color: white;
@@ -170,7 +177,7 @@
     margin-bottom: 40px;
   }
 
-  .Footer .social-links a{
+  .Footer .social-links a {
     font-size: 16px;
   }
 

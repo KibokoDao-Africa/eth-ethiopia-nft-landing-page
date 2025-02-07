@@ -1,18 +1,16 @@
 .hero {
-
-    max-height: 100vh;
-
+  height: 100dvh; /* Use dynamic viewport height for better mobile support */
   width: 100%;
   margin: 0 auto;
-  /* padding: 0 20px; */
   padding-top: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .content {
-  padding: 20px 0;  
+  padding: 20px 0;
   text-align: center;
 }
 
@@ -21,11 +19,10 @@
   color: white;
   font-size: 76px;
   font-weight: 700;
-  line-height: 1;
+  line-height: 1.2; /* Adjusted for better readability */
   letter-spacing: normal;
   text-transform: uppercase;
 }
-
 
 .hero .cta {
   text-align: center;
@@ -40,7 +37,7 @@
   font-weight: 500;
   text-transform: uppercase;
   padding: 20px 60px;
-  background: linear-gradient(25deg, #5101e3, #8300e7, #a900eb, #cc00ee, #eb00f0);  
+  background: linear-gradient(25deg, #5101e3, #8300e7, #a900eb, #cc00ee, #eb00f0);
   color: #fff;
   border-radius: 50px;
   text-decoration: none;
@@ -48,7 +45,7 @@
   transition: 0.3s ease-in-out;
 }
 
-.hero .cta a:hover{
+.hero .cta a:hover {
   background: linear-gradient(50deg, #5101e3, #8300e7, #a900eb, #cc00ee, #eb00f0);
 }
 
@@ -59,6 +56,7 @@
   background-clip: text;
 }
 
+/* SVG Animations */
 .svg-wrapper-top {
   position: absolute;
   top: 15%;
@@ -102,14 +100,14 @@
   }
 }
 
+/* Panel Section */
 .panel {
   padding: 30px 0;
   text-align: center;
-  align-items: center;
-  justify-content: center;
   display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
   width: 100%;
 }
 
@@ -131,11 +129,6 @@
 }
 
 .panel .row .col img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  flex-wrap: nowrap;
   width: 100%;
   background-color: #fff;
   border-radius: 24px;
@@ -161,6 +154,8 @@
   height: 150px;
   object-fit: cover;
 }
+
+/* Responsive Design */
 
 /* Extra Small Devices (Mobile Phones) */
 @media (max-width: 575.98px) {
