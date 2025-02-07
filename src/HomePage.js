@@ -1,6 +1,6 @@
 import React from 'react';
-import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+// import Navbar from './components/Navbar';
 // import Why from './components/Why';
 // import About from './components/About';
 // import Roadmap from './components/Roadmap';
@@ -13,7 +13,6 @@ import Break from './components/Break';
 function HomePage() {
   return (
     <div>
-      <Navbar />
       <Hero id="hero" />
       <Break />
       <Footer />
