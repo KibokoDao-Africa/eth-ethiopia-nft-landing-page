@@ -5,9 +5,8 @@ html, body {
   overflow-x: hidden;
   margin: 0;
   font-family: 'Space Grotesk', sans-serif;
-  background: linear-gradient(to top, #fff 50%, #e9d2fc);
-  background-image: url(./images/IMG-20241214-WA0002\ \(1\).jpg);
-  background-position: center;
+  background: linear-gradient(to top, #5d4bc0 , #59099a);
+  background-position: inherit;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed; /* This keeps the background image fixed */
@@ -32,15 +31,4 @@ body::-webkit-scrollbar-thumb {
 
 body::-webkit-scrollbar-thumb:hover {
   background-color: #555;
-}
-
-/* Background for mobile screens */
-@media (max-width: 768px) {
-  body {
-    background-image: url('./images/IMG-20241214-WA0002.jpg');
-    background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed; /* Optional: Change attachment for better performance on mobile */
-  }
 }
