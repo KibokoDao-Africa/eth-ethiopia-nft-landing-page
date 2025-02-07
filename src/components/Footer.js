@@ -10,14 +10,7 @@ const SocialLink = ({ href, iconClass }) => (
   </li>
 );
 
-// Footer link component
-const FooterLink = ({ href, text }) => (
-  <li>
-    <a href={href} target="_blank" rel="noopener noreferrer">
-      {text}
-    </a>
-  </li>
-);
+
 
 // Array of social links
 const socialLinks = [
@@ -28,7 +21,7 @@ const socialLinks = [
   { href: "https://discord.gg/cg48CzbsXq", iconClass: "bi bi-discord" },
   { href: "https://www.instagram.com/definfts/", iconClass: "bi bi-instagram" },
   {
-    href: " https://www.instagram.com/kiboko_dao?igsh=MTQxY3dqdXQzM2t1dg==",
+    href: "https://web.facebook.com/profile.php?id=100093844284426",
     iconClass: "bi bi-facebook",
   },
   {
@@ -53,7 +46,7 @@ export default function Footer() {
               <span>DISCORD</span>
             </h1>
             <p className="subtitle">
-              Invest and manage all your NFTs at one place.
+              Invest in our NFTs, get voting, proposing and access rights all in one place.
             </p>
             <div className="cta">
               <a
