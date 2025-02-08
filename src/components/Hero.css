@@ -1,6 +1,6 @@
 .hero {
   height: 100vh;
-  width: 100%;
+  width: 100vw;
   padding-top: 2rem;
   display: flex;
   justify-content: center;
@@ -22,7 +22,7 @@
   text-transform: uppercase;
 }
 
-.content h1 span {
+.content h2 span {
   background: linear-gradient(to right, #5101e3, #8300e7, #a900eb, #cc00ee, #eb00f0);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -91,4 +91,7 @@
   .panel .col img {
     height: 120px;
   }
+}
+.font{
+  font-size: 2rem;
 }

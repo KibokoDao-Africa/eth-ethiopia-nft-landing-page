@@ -25,7 +25,21 @@ export default function Hero() {
             </a>
           </div>
           <div className="container">
-<SimpleSlider />
+            <SimpleSlider />
+            <h1 style={{fontSize:"2rem"}} className='font'>link to bridge assets to lisk </h1>
+
+            <br />
+            <span>
+              <div className="cta">
+                <a
+                  href="https://relay.link/bridge/lisk"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Lisk Bridge
+                </a>
+              </div>
+            </span>
           </div>
         </div>
       </div>
