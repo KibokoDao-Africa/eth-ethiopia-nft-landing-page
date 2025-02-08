@@ -19,7 +19,10 @@ const socialLinks = [
     iconClass: "bi bi-twitter",
   },
   { href: "https://discord.gg/cg48CzbsXq", iconClass: "bi bi-discord" },
-  { href: "https://www.instagram.com/definfts/", iconClass: "bi bi-instagram" },
+  {
+    href: "https://www.instagram.com/kiboko_dao",
+    iconClass: "bi bi-instagram",
+  },
   {
     href: "https://web.facebook.com/profile.php?id=100093844284426",
     iconClass: "bi bi-facebook",
