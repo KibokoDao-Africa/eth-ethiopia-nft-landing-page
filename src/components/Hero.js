@@ -15,7 +15,7 @@ export default function Hero() {
             <br />
             <span>kiboko rare nfts</span>
           </h1>
-          <div className="cta">
+          <div style={{paddingTop:"0.25rem"}} className="cta">
             <a
               href="https://rarible.com/kiboko"
               target="_blank"
